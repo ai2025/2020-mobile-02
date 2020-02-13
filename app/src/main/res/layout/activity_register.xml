@@ -10,12 +10,11 @@
         android:id="@+id/cLay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="15dp"
+        android:layout_marginLeft="35dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
         <ImageView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -28,12 +27,12 @@
         android:id="@+id/tv_t"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginTop="30dp"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="General Info"
         android:textColor="#000"
         android:textSize="23sp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="30dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cLay" />
 
@@ -41,9 +40,9 @@
         android:id="@+id/linLay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
         android:layout_marginRight="25dp"
         android:orientation="horizontal"
+        android:layout_marginTop="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cLay">
 
@@ -51,8 +50,8 @@
             android:id="@+id/tv_st2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/futura_pt_demibold"
             android:text="1 "
+            android:fontFamily="@font/futura_pt_demibold"
             android:textColor="#E74040"
             android:textSize="23sp" />
 
@@ -60,8 +59,8 @@
             android:id="@+id/tv_st"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:fontFamily="@font/futura_pt_demibold"
             android:text="of 5"
+            android:fontFamily="@font/futura_pt_demibold"
             android:textColor="#000"
             android:textSize="23sp" />
 
@@ -71,8 +70,8 @@
         android:id="@+id/v_g"
         android:layout_width="match_parent"
         android:layout_height="1dp"
-        android:layout_marginTop="15dp"
         android:background="#d9d6d0"
+        android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t" />
@@ -81,11 +80,11 @@
         android:id="@+id/tv_t2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Full Name"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
+        android:textSize="15sp"
         android:fontFamily="@font/futura_pt_demibold"
-        android:text="Full Name"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/v_g" />
 
@@ -93,8 +92,8 @@
         android:id="@+id/tv_t3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="15dp"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="Jonathan Doe"
         android:textColor="#000"
@@ -104,21 +103,24 @@
 
     <ImageView
         android:id="@+id/iv_line"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        android:layout_marginLeft="35dp"
         android:src="@drawable/red_line_padded"
         app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t3" />
 
     <TextView
         android:id="@+id/tv_t4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
         android:text="Email Address"
         android:textColor="#d9d6d0"
         android:textSize="18sp"
@@ -127,11 +129,14 @@
 
     <ImageView
         android:id="@+id/iv_line2"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:src="@drawable/grey_line_padded"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grey_line_padded"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t4" />
 
@@ -139,22 +144,25 @@
         android:id="@+id/tv_t5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="18sp"
         android:text="Mobile Number"
         android:textColor="#d9d6d0"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_line2" />
 
     <ImageView
         android:id="@+id/iv_line3"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:src="@drawable/grey_line_padded"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grey_line_padded"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t5" />
 
@@ -162,9 +170,9 @@
         android:id="@+id/tv_t6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
         android:text="Country"
         android:textColor="#d9d6d0"
         android:textSize="18sp"
@@ -173,34 +181,50 @@
 
     <ImageView
         android:id="@+id/iv_line4"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
         android:layout_marginTop="10dp"
+        android:scaleType="fitXY"
         android:src="@drawable/grey_line_padded"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t6" />
+
+    <ImageView
+        android:id="@+id/caret"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="45dp"
+        android:layout_marginBottom="15dp"
+        android:src="@drawable/caret_down"
+        app:layout_constraintBottom_toTopOf="@id/iv_line4"
+        app:layout_constraintRight_toRightOf="parent" />
 
     <TextView
         android:id="@+id/tv_t7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="18sp"
         android:text="Password"
         android:textColor="#d9d6d0"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_line4" />
 
     <ImageView
         android:id="@+id/iv_line5"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:src="@drawable/grey_line_padded"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grey_line_padded"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t7" />
 
@@ -208,22 +232,25 @@
         android:id="@+id/tv_t8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:fontFamily="@font/futura_pt_demibold"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
+        android:textSize="18sp"
         android:text="Confirm Password"
         android:textColor="#d9d6d0"
-        android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_line5" />
 
     <ImageView
         android:id="@+id/iv_line6"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:src="@drawable/grey_line_padded"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grey_line_padded"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t8" />
 
@@ -231,22 +258,25 @@
         android:id="@+id/tv_t9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="Referal Code (Optional)"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="30dp"
-        android:fontFamily="@font/futura_pt_demibold"
-        android:text="Referal Code (Optional)"
         android:textColor="#d9d6d0"
         android:textSize="18sp"
+        android:fontFamily="@font/futura_pt_demibold"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/iv_line6" />
 
     <ImageView
         android:id="@+id/iv_line7"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:src="@drawable/grey_line_padded"
         android:layout_marginLeft="35dp"
         android:layout_marginTop="10dp"
-        android:src="@drawable/grey_line_padded"
+        android:layout_marginRight="35dp"
+        android:scaleType="fitXY"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_t9" />
 
@@ -255,15 +285,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="35dp"
-        android:layout_marginTop="10dp"
         android:layout_marginRight="35dp"
-        android:background="@drawable/btn_red_large"
-        android:fontFamily="@font/futura_pt_demibold"
+        android:layout_marginBottom="15dp"
         android:text="Next"
         android:textColor="#FFF"
+        android:background="@drawable/btn_red_large"
         android:textSize="18sp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:fontFamily="@font/futura_pt_demibold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/iv_line7" />
+        app:layout_constraintEnd_toEndOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
