@@ -10,7 +10,7 @@
         android:id="@+id/cLay"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="15dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,11 +28,11 @@
         android:id="@+id/tv_t"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="30dp"
         android:fontFamily="@font/futura_pt_demibold"
         android:text="General Info"
-        android:textColor="#000"
+        android:textColor="@color/colorBlack"
         android:textSize="23sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/cLay" />
@@ -62,7 +62,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
             android:text="of 5"
-            android:textColor="#000"
+            android:textColor="@color/colorBlack"
             android:textSize="23sp" />
 
     </LinearLayout>
@@ -81,9 +81,9 @@
         android:id="@+id/til_name"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="20dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -95,6 +95,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Full Name"
+            android:textColor="@color/colorGreyDarker"
             android:textSize="18sp">
 
         </com.google.android.material.textfield.TextInputEditText>
@@ -105,9 +106,9 @@
         android:id="@+id/til_email"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -119,6 +120,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Email Address"
+            android:textColor="@color/colorGreyDarker"
             android:inputType="textEmailAddress"
             android:textSize="18sp">
 
@@ -130,9 +132,9 @@
         android:id="@+id/til_phone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -144,6 +146,7 @@
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Mobile Phone"
+            android:textColor="@color/colorGreyDarker"
             android:inputType="number"
             android:textSize="18sp">
 
@@ -163,9 +166,9 @@
             android:id="@+id/til_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="35dp"
+            android:layout_marginLeft="30dp"
             android:layout_marginTop="10dp"
-            android:layout_marginRight="35dp"
+            android:layout_marginRight="30dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent">
@@ -207,9 +210,9 @@
         android:id="@+id/til_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -222,6 +225,7 @@
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Password"
             android:inputType="textPassword"
+            android:textColor="@color/colorGreyDarker"
             android:textSize="18sp">
 
         </com.google.android.material.textfield.TextInputEditText>
@@ -232,9 +236,9 @@
         android:id="@+id/til_cpass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -247,6 +251,7 @@
             android:fontFamily="@font/futura_pt_demibold"
             android:hint="Confirm Password"
             android:inputType="textPassword"
+            android:textColor="@color/colorGreyDarker"
             android:textSize="18sp">
 
         </com.google.android.material.textfield.TextInputEditText>
@@ -257,9 +262,9 @@
         android:id="@+id/til_code"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
+        android:layout_marginLeft="30dp"
         android:layout_marginTop="10dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginRight="30dp"
         app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -270,8 +275,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:fontFamily="@font/futura_pt_demibold"
-            android:hint="Password"
-            android:inputType="textPassword"
+            android:hint="Referral Code (Optional)"
+            android:inputType="number"
+            android:textColor="@color/colorGreyDarker"
             android:textSize="18sp">
 
         </com.google.android.material.textfield.TextInputEditText>
@@ -282,8 +288,8 @@
         android:id="@+id/btn_next"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="35dp"
-        android:layout_marginRight="35dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
         android:layout_marginBottom="20dp"
         android:background="@drawable/btn_red_large"
         android:fontFamily="@font/futura_pt_demibold"
